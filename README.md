@@ -1,6 +1,7 @@
-# Bird View Navigation Test - beta version
-Documentation coming soon.
+# Viewpoint Transformation Task
 last update: 12/09/2019
+beta version author: [Mengyu Chen](https://github.com/mengyuchen/BirdViewNavigation)
+Updated version: Carol He
 
 ## Requirements
 1. Unity 2018 4.0f1 LTS
@@ -8,29 +9,8 @@ You can download here: https://unity3d.com/get-unity/download/archive
 2. Git LFS
 Make sure you have Git LFS: https://git-lfs.github.com/
 
-## Clone this repo
-```shell
-git clone https://github.com/mengyuchen/BirdViewNavigation
-```
-## Push to this repo
-To add your changes to commit
-```shell
-git add .
-```
-To commit
-```shell
-git commit -m "commit message"
-```
-To push
-```shell
-git push origin master
-```
-
-## Pull updates
-```shell
-cd your_directory/BirdViewNavigation
-git pull
-```
+## Documentation
+Refer to *Bird View Navigation_mengyu_2019.pdf"
 
 ## Merge Conflicts
 ```shell
