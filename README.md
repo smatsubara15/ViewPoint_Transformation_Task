@@ -1,7 +1,7 @@
 # Viewpoint Transformation Task
-last update: 12/09/2019
-beta version author: [Mengyu Chen](https://github.com/mengyuchen/BirdViewNavigation)
-Updated version: Carol He
+last update: 12/09/2019  
+beta version author: [Mengyu Chen](https://github.com/mengyuchen/BirdViewNavigation)  
+Updated version: Carol He  
 
 ## Requirements
 1. Unity 2018 4.0f1 LTS
