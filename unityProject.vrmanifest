@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vr_dsp_small_test.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\UnityProjects\\MapNavigation\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "MapNavigation [Testing]"
+        }
+      }
+    }
+  ]
+}
