@@ -1,5 +1,0 @@
-Participant Name: Asdf
-Participant Gender: asdf
-Participant ID: 123
-Test Date: 23
-Navi Mode: full
