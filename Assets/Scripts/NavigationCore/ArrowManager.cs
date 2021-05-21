@@ -44,7 +44,7 @@ public class ArrowManager : MonoBehaviour
     public void Activate(int arrowPosIndex){
         if (StartingPoints[arrowPosIndex] != null){
             // Debug.Log(arrowPosIndex + " arrow pos");
-            ArrowAvatar.transform.position = new Vector3(StartingPoints[arrowPosIndex].transform.position.x, 1.0f, StartingPoints[arrowPosIndex].transform.position.z);
+            ArrowAvatar.transform.position = new Vector3(StartingPoints[arrowPosIndex].transform.position.x, 1.5f, StartingPoints[arrowPosIndex].transform.position.z);
             FootPrint.transform.position = new Vector3(StartingPoints[arrowPosIndex].transform.position.x, 0.005f, StartingPoints[arrowPosIndex].transform.position.z);
             FootPrint.transform.rotation = StartingPoints[arrowPosIndex].transform.rotation;
             
@@ -67,7 +67,7 @@ public class ArrowManager : MonoBehaviour
         mText.text = sentence;
     }
     private void SetTextStatus(bool status){
-        InstructionText.transform.position = ArrowAvatar.transform.position;
+        InstructionText.transform.position = ArrowAvatar.transform.position + new Vector3(0,-0.65f,0); // vertical offset
         InstructionText.SetActive(status);
     }
     private IEnumerator ResetFootPrint(float waitTime){
